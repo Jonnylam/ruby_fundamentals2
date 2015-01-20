@@ -11,3 +11,4 @@ item(grocery_list)
 
 
 # puts grocery_list
+puts "the number of items your grocery list is " + grocery_list.count.to_s

@@ -1,6 +1,7 @@
 grocery_list = ["fruits", "milk", "juice", "chips"];
 def item(i)
 	i.each {|x| puts "* #{x}"}
+
 end
 #METHOD
 
@@ -22,3 +23,5 @@ end
 #bananas
 
 puts grocery_list[1];
+
+item(grocery_list.sort)

@@ -5,7 +5,7 @@ def item(i)
 end
 #METHOD
 
-
+grocery_list.push('salmon')
 grocery_list.push('bananas')
 grocery_list.push('rice')
 item(grocery_list)
@@ -25,3 +25,6 @@ end
 puts grocery_list[1];
 
 item(grocery_list.sort)
+
+grocery_list.delete('salmon')
+item(grocery_list)
